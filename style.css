@@ -1,0 +1,55 @@
+html {
+    background-color: white;
+}
+.container {
+    height: 300px;
+    width: 700px;
+    background-color: white;
+    position: absolute;
+    right: 25%;
+    top: 50%;
+    transform: translateX(-10%) translateY(-50%);
+    border-style: ridge;
+    border-radius: 5px;
+    border-color: white; 
+    display: grid;
+    color: grey;
+}
+#myform {
+    text-align: left;
+    padding: 2px;
+    margin: 1%;
+    font-size: 20px;
+}
+.qty {
+    width: 100px;
+    height: 20px;
+    text-align: center;
+}
+input.qtyplus { 
+    width:25px; height:25px;
+}
+input.qtyminus {
+     width:25px; height:25px;
+}
+.vertical{
+    color: black;
+    font: bold;
+    position: absolute;
+    left: 250px;
+    top: 80px;
+}
+
+.space{
+    height: 50px;
+}
+.line{
+    border-left: 1px solid gray;
+    height: 300px;
+    position: absolute;
+    left: 30%;
+}
+.per{
+    color: gray;
+    display: inline;
+}
